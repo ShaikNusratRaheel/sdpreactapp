@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* overflow: hidden; */
+
+}
+
+.registration-container {
+    background:  #FF4B2B;;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 10rem;
+}
+
+.registration-container h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.registration-container h2::after {
+    content: '';
+    position: relative;
+    top: 100%;
+    left: 0;
+    height: 3px;
+    width: 0;
+    border-radius: 2px;
+    background-color: whitesmoke;
+}
+
+.three-details-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem; /* Add margin between each group of inputs */
+}
+
+.two-details-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem; /* Add margin between each group of inputs */
+}
+
+.personal-details {
+  
+    margin-right: 1rem; /* Add margin between each input */
+}
+
+.personal-details label {
+    margin: .5rem 0; /* Adjust label margin */
+}
+
+.personal-details input,
+.personal-details select {
+    margin-top: .5rem; /* Adjust input/select margin */
+}
+
+.submit-btn {
+    border: none;
+    background-color: #e65b00;
+    color: white;
+    padding: .3rem 1rem;
+    display: block;
+    width: 50%;
+    margin: .6rem auto;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+.inner-container {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
